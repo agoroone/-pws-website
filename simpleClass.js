@@ -1,3 +1,7 @@
+
+
+
+
 class Student{
 
     constructor(firstName, lastName, dob) {
@@ -5,6 +9,8 @@ this.firstName = firstName;
 this.lastName = lastName;
 this.dob = new Date (dob);
     }
+
+//kkk
 
 
     getFullName (){
