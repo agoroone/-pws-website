@@ -18,13 +18,11 @@ btn.addEventListener("mouseleave", (e) => {
 btn.addEventListener("mouseover", (e) => {
     e.preventDefault();
     console.log(e.target.className);
-  
       document.querySelector("header").style.background = "white";
       document.querySelector("footer").style.background = "black";
       document.querySelector("body").style.background = "red";
       document.querySelector("body").style.fontFamily =   "Georgia";
       document.querySelector("a").style.color=   "black";
-  
   //   document.querySelector("body").classList.add("bg-dark");
   //   ulElements.lastElementChild.innerHTML = "<h1>Design Thinking</h1>";
   });
